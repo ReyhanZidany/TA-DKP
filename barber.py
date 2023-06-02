@@ -88,10 +88,10 @@ class BarberShopApp:
             }
 
             if capster_request == "Ucup":
-                messagebox.showinfo("Reservasi Barbershop", "Reservasi berhasil! Barber yang diinginkan: Ucup")
+                messagebox.showinfo("Reservasi Barbershop", "Reservasi berhasil! Capster yang diinginkan: Ucup")
                 self.reservation_stack.append(reservation)  
             elif capster_request == "Adit":
-                messagebox.showinfo("Reservasi Barbershop", "Reservasi berhasil! Barber yang diinginkan: Adit")
+                messagebox.showinfo("Reservasi Barbershop", "Reservasi berhasil! Capster yang diinginkan: Adit")
                 self.reservation_queue.append(reservation) 
 
             self.show_reservation_info(reservation) 
